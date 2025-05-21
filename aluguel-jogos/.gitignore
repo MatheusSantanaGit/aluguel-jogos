@@ -31,3 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar banco de dados H2
+/data/
+
+# Ignorar diretório de build do Maven
+/target/
+
+# Ignorar configurações do IntelliJ
+/.idea/
+
+# Ignorar arquivos de sistema
+*.log
+*.class
+.DS_Store
+Thumbs.db
